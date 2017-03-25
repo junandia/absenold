@@ -1,0 +1,57 @@
+body {
+	width: 99%;
+	height: 99%;
+}
+header, nav, footer {
+	width: 100%;
+	text-decoration: none;
+}
+header {
+	height: 75px;
+	font-size: 2em;
+}
+nav {
+	background: black;
+
+}
+nav ul {
+    margin: 15px auto;
+    padding: auto;
+    height: 25px;
+}
+
+nav li {
+	color: white;
+	display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+nav li a:active {
+	color: white;
+	text-decoration: none;
+}
+aside {
+	float: left;
+	width: 19.5%;
+	height: 400px;
+	background: gray;
+
+}
+section #isi {
+	float: right;
+	width: 80.5%;
+	height: 400px;
+}
+footer {
+	clear: both;
+	background: black;
+	color: white;
+	text-align: center;
+}
+th {
+	color: white;
+}
